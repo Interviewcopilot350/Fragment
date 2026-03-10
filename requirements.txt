@@ -1,0 +1,8 @@
+# --- NovaBots Fragment Sniper Requirements ---
+# Bypasses Cloudflare & JA3 fingerprints
+
+# The core stealth engine (Use --pre if on Android/Termux)
+curl_cffi>=0.7.0b4
+
+# Asynchronous support (standard in Python 3.7+)
+asyncio
